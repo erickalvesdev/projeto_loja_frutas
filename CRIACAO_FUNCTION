@@ -1,3 +1,6 @@
+-------------
+ERICK
+-------------
 --FUNCTION PARA RETORNAR VALOR DO SALARIO
 CREATE FUNCTION FUNC_ValorSalarial(
 	@ID_Cargo	INT
@@ -54,6 +57,12 @@ CREATE OR ALTER FUNCTION FNC_ValidarCPF(
 				RETURN @AVISO
 			END
 		GO
+
+------------
+Alcymario
+------------
+
+
 -- Function para calcular o valor total com base na soma do preço unitário e a quantidade.
 CREATE OR ALTER FUNCTION [dbo].[FNC_CalcularValorTotal] (
     @ID INT
@@ -88,7 +97,9 @@ CREATE OR ALTER FUNCTION [dbo].[FNC_CalcularValorTotal] (
 		RETURN @ValorTotal
 	END
 
-
+---------
+ERICK
+---------
 --FUNCTION PARA ATUALIZAR QUANTIDADE EM ESTOQUE
 CREATE FUNCTION FUNC_AtualizarEstoqueAposCompra(
 	@ID_Produto INT, 

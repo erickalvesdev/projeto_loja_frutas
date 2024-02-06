@@ -100,5 +100,6 @@ CREATE OR ALTER PROC SP_DelCompra (
             WHERE ID = @ID
         RETURN 0
 
-        IF @@ERROR <>0 RETURN 2
+        IF @@ERROR <>0 
+         RETURN 2
     END
